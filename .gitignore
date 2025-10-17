@@ -1,0 +1,40 @@
+# ========================
+# Project .gitignore
+# ========================
+
+# --- macOS system files ---
+.DS_Store
+*/.DS_Store
+
+# --- R / RStudio artifacts ---
+.Rhistory
+*/.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+.Rproj.user/
+
+# --- Ipsos data (keep folder only) ---
+Data/Ipsos/*
+!Data/Ipsos/.gitkeep
+
+# --- Large CDC CSV file ---
+Data/CDC/COVID-19_Vaccination_Age_and_Sex_Trends_in_the_United_States__National_and_Jurisdictional.csv
+
+# --- Other potential local artifacts ---
+.Rproj
+*.Rproj
+*.Rproj.user
+.Rhistory
+*.log
+*.tmp
+*.bak
+
+# --- Other code --- #
+Old\ Code\ and\ Files/
+Plots/
+SM/downsample_state_vax.R
+Simulations/
+census_api_key.txt
+
+
