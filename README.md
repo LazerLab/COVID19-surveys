@@ -16,7 +16,8 @@ In COVID19-surveys/SM/:
 
 Data sources:
 
-- CDC vaccination data: https://data.cdc.gov/Vaccinations/COVID-19-Vaccination-Age-and-Sex-Trends-in-the-Uni/5i5k-6cmh/
+- CDC vaccination data must be present in the COVID19-surveys/Data/CDC folder: https://data.cdc.gov/Vaccinations/COVID-19-Vaccination-Age-and-Sex-Trends-in-the-Uni/5i5k-6cmh/
+- We provide the version of CDC data we used during publication in our Harvard Dataverse repository. (https://doi.org/10.7910/DVN/ZUJU6H)
 - Axios-Ipsos data: https://ropercenter.cornell.edu
 - CSP/CHIP50 data: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/ZUJU6H (https://doi.org/10.7910/DVN/ZUJU6H)
 - NYT COVID-19 data: https://raw.githubusercontent.com/nytimes/covid-19-data/master/
